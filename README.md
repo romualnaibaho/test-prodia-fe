@@ -18,6 +18,7 @@ VUE_APP_API_GATEWAY_URL=http://127.0.0.1:8001
 ```
 
 VUE_APP_BASE_URL -> base url aplikasi fe
+<br/>
 VUE_APP_API_GATEWAY_URL -> base url aplikasi be
 
 ### Compiles and hot-reloads for development
