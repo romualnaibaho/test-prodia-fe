@@ -32,7 +32,7 @@
   <style scoped lang="scss">
   .header {
     border-bottom: solid 2px rgb(88, 87, 87);
-    background-color: #fef200;
+    background-color: #FCED8C;
     padding: 15px 0;
     width: 100%;
   }

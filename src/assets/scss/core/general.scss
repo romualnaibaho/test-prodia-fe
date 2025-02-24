@@ -31,3 +31,22 @@
       height: #{$var} !important; 
     }
   }
+
+  /* Untuk browser berbasis WebKit (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Lebar scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Warna latar track */
+  border-radius: 10px; /* Sudut membulat */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Warna thumb (pegangan scrollbar) */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Warna thumb saat dihover */
+}

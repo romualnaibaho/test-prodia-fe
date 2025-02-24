@@ -139,7 +139,7 @@
 <script>
 import auth from '@/helpers/api_call/Auth';
 
-import AlertMessageComponent from '../../../components/general/AlertMessageComponent.vue';
+import AlertMessageComponent from '@/components/general/AlertMessageComponent.vue';
 
 export default {
     name: 'login',

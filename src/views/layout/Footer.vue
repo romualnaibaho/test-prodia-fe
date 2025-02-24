@@ -14,8 +14,7 @@
   
   <style scoped lang="scss">
   .footer {
-    color: white;
-    background-color: rgb(169, 43, 43);
+    background-color: #FFDD00;
     padding: 15px 0;
     width: 100%;
   }

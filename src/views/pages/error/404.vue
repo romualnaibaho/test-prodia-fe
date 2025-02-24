@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container h-max">
       <div class="row">
         <div class="col-12 text-center p-3">
           <img alt="Error" class="img-error" src="@/assets/images/error/404.png"/>
@@ -16,14 +16,19 @@
     name: 'error-not-found',
     mounted() {
       setTimeout(() => {
-        this.$router.push({ name: 'home' })
+        this.$router.push({ name: 'dashboard' })
       }, 5000)
     }
   }
-  </script>
+</script>
   
-  <style lang="scss" scoped>
-  .img-error {
+<style lang="scss" scoped>
+.h-max {
+    margin-top: 63px;
+    min-height: calc(100vh - 63px - 72px);
+}
+
+.img-error {
     width: 450px;
-  }
-  </style>
+}
+</style>

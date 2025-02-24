@@ -3,6 +3,9 @@ module.exports = function () {
       if (param === 'API_URL') {
         return process.env.VUE_APP_API_URL
       }
+      if (param === 'API_KEY') {
+        return process.env.VUE_APP_API_KEY
+      }
       if (param === 'BASE_URL') {
         return process.env.VUE_APP_BASE_URL
       }

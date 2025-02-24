@@ -1,3 +1,7 @@
+const Env = require('@/helpers/Env')
+
+const env = new Env()
+
 class General {
     /*
     * used to deep clone normal arrays and array of objects
@@ -17,6 +21,10 @@ class General {
         }
 
         return defaultVal
+    }
+
+    getEnv = (name) => {
+        return env.getEnv(name)
     }
 
     deleteCookies() {
