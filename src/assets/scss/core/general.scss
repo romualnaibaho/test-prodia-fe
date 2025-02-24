@@ -1,0 +1,33 @@
+.cursor-pointer {
+    cursor: pointer;
+}
+  
+  // generate margin top
+  @for $i from 0 through 100 {
+    $var: $i * 1%;
+    .margin-top-#{$i} {
+      margin-top: #{$var} !important; 
+    }
+  }
+
+  /*
+ Width and Height Helper
+
+ Note* - some classes already built in bootstrap (w-25, w-50, w-75, w-100, h-25, h-50, h-75, h-100)
+
+*/
+
+/* generating width (%) options */
+@for $i from 0 through 100 {
+    $var: $i * 1%;
+    .w-#{$i} {
+      width: #{$var} !important; 
+    }
+  }
+  
+  @for $i from 0 through 100 {
+    $var: $i * 1%;
+    .h-#{$i} {
+      height: #{$var} !important; 
+    }
+  }

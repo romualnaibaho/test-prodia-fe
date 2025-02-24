@@ -1,0 +1,13 @@
+/* font-size */
+@for $i from 10 through 100 {
+    .f-#{$i} {
+      font-size: #{$i}px !important;
+    }
+  }
+  
+  /* font weight */
+  @for $i from 1 through 9 {
+    .fw-#{$i}00 {
+      font-weight: #{$i}00 !important;
+    }
+  }
